@@ -1,4 +1,4 @@
-import add from "./add";
+import add from "./add.js";
 
 export function addTen(num) {
   return add(num,10);
