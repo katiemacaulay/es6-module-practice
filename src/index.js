@@ -1,11 +1,12 @@
 import add from "./modules/add.js";
 import subtract from "./modules/subtract.js";
 import multiply from "./modules/multiply.js";
-import {addTen, addFive} from "./modules/addNumbers.js";
-import {subtractOne} from "./modules/subtractNumbers.js";
+import divide from "./modules/divide.js";
+import {addOne, addTen, addFive} from "./modules/addNumbers.js";
+import {subtractOne, subtractFive, subtractTen} from "./modules/subtractNumbers.js";
 
-const number1 = 393;
-const number2 = 238;
+const number1 = 8008135;
+const number2 = 28719489;
 
 let answer = add(number1,number2);
 console.log(answer);
